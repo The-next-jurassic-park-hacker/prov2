@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <script type="text/javascript">
+    var ageCheck = window.prompt("Please enter your age:")
+    var name = window.prompt("Please enter your name:")
+
+    if (ageCheck < 20) {
+        window.alert("You submitted that you are " + ageCheck + ": years old, " + name + ".");
+        window.alert("You must be at least 20 years old to visit this site");
+        window.location = "http://www.google.com";
+
+    }
+       else if (ageCheck > 20 && ageCheck < 101 ) {
+           window.alert("You are old enough to visit this page");
+           window.alert("Welcome " + name + "!");
+       }
+
+    </script>
+</header>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic web page</title>
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <nav class="navigation">
+        <ul class="links">
+            <li class="link"><a href="#top">Home</a></li>
+            <li class="link"><a href="#about">About Me</a></li>
+            <li class="link"><a href="#portfolio">Portfolio</a></li>
+        </ul>
+    </nav>
+
+    <header class="call-to-action" id="top">
+        <div class="tagline">
+            <h1>Hi, I'm Cassandra</h1>
+            <h3>And I couldn't make this shit work</h3>
+        </div>
+    </header>
+
+    <main>
+        <section class="content" id="about">
+            <div class="col-12">
+                <div class="row">
+                    <div class="tagline">
+                        <h2>About Me</h2>
+                    </div>
+                    <article class="about">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="https://pkimgcdn.peekyou.com/2ed108f9dfa327456ba941d93f00df53.jpeg"
+                                    alt="Cassie profile">
+                            </div>
+                            <div class="col-6">
+                                <p>Hi. My name's Cassie and I am 100% geek material. I'm a bit of a lost soul and I'm
+                                    not quite sure what to do with myself, career wise, so my life mostly revolves
+                                    around my hobbies. I suppose I could be so bold and call myself a professional
+                                    portrait artist (click on the top picture if you wish to stalk me on instagram) as I
+                                    have a little "side-business" where I sell commissions. I have even been fortunate
+                                    enough to meet my biggest idol Leona Lewis who now owns 4 of my drawings! I'm also
+                                    an avid globetrotter who loves to explore the world and I especially love to hike on
+                                    volcanic islands Aside from that, here are the rest of my hobbies:</p>
+                            </div>
+                        </div>
+
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="content" id="portfolio">
+            <div class="tagline">
+                <h2>Portfolio</h2>
+            </div>
+            <article class="portfolio">
+                <div class="row">
+                    <article class="col-12">
+                        <ul>
+                            <li>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQafIMW1-vRQLM9zp6D6966a2JoUIGmwnkKZ_kx-wSU8GIxjq3Q"
+                                    alt="">
+                            </li>
+                            <li>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM7Hs0j2822pacw-cVZkpCtd48LSFWkA7jjveVhwKBiRsXc4Sx"
+                                    alt="">
+                            </li>
+                            <li>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkKIeVcueeSaVEi_FSw44blTDZ4Kg_XKrDeYbVAQ-YxwsK2brthA"
+                                    alt="">
+                            </li>
+                            <li>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2t0Um8vBhx6LrFiFK4XehcUrNRjU81i_2KpBgdVQQf0tpgwnJ"
+                                    alt="">
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+            </article>
+        </section>
+        <ul class="hobbies">
+            <li>
+                <p>Eat bacon</p>
+            </li>
+            <li>
+                <p>Play videogames</p>
+            </li>
+            <li>
+                <p>Travel</p>
+            </li>
+            <li>
+                <p>Sleep</p>
+            </li>
+            <li>
+                <p>Study (believe it or not)</p>
+            </li>
+            <li>
+                <p>Go to sci-fi conventions</p>
+            </li>
+        </ul>
+        <img src="https://instagram.fmmx1-1.fna.fbcdn.net/vp/9b4e8f218e1e21296c78ac85d66b426e/5E0A5F2E/t51.2885-15/sh0.08/e35/s640x640/47440300_762834220742595_8773227600838666496_n.jpg?_nc_ht=instagram.fmmx1-1.fna.fbcdn.net"
+            class="center">
+    </main>
+    <footer>
+        <p>Made by Cassie</p>
+    </footer>
+</body>
+
+</html>
